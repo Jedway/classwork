@@ -1,0 +1,24 @@
+.site-header {
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+  backdrop-filter: blur(6px);
+}
+
+.nav-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.brand {
+  margin: 0;
+  font-size: 1.1rem;
+  letter-spacing: 0.2px;
+}
+
+.site-nav a {
+  margin-left: 1rem;
+  color: #dbeafe;
+}
+
+.site-nav a:hover { opacity: 0.9 }
